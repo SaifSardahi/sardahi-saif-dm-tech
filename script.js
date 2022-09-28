@@ -16,3 +16,15 @@ showElement.innerHTML;
 
 // J'affiche mon HTML dans ma console
 console.log(showElement);
+
+
+// SCRIPT BOUTON //
+
+var count = 0;
+var btn = document.getElementById("btn");
+var num = document.getElementById("num");
+
+btn.onclick = function() {
+    count++;
+    num.innerHTML = count;
+}
