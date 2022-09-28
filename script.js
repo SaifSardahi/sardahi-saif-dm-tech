@@ -28,3 +28,7 @@ btn.onclick = function() {
     count++;
     num.innerHTML = count;
 }
+
+// EXO JSON //
+
+localStorage.setItem('person', 'Saif Sardahi');
