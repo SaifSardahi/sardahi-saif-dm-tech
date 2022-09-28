@@ -9,14 +9,9 @@ const addElement2 = document.createElement('h5')
 showElement.appendChild(addElement1);
 showElement.appendChild(addElement2);
 
-// Je remplace mes précédents Element crée
-var newElement1 = document.createTextNode("<h5>New Titre 4</h5>");
-var newElement2 = document.createTextNode("<h5>New Titre 5</h5>");
-
-showElement.replaceChild(newElement1, addElement1);
-showElement.replaceChild(newElement2, addElement2);
-
 // Je converti mon tableau en HTML
+addElement1.innerHTML = "TITRE 4";
+addElement2.innerHTML = "TITRE 5";
 showElement.innerHTML;
 
 // J'affiche mon HTML dans ma console
