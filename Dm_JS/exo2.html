@@ -1,0 +1,16 @@
+<script>
+    function BigNumber(a, b, c) {
+        big = 0;
+        if (a > b) {
+            big = a;
+        } else {
+            big = b;
+        }
+        if (c > big) {
+            big = c;
+        }
+        return big;
+    }
+
+    console.log(BigNumber(2, 20, 48));
+</script>
